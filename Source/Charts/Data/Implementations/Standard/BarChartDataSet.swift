@@ -151,6 +151,8 @@ open class BarChartDataSet: BarLineScatterCandleBubbleChartDataSet, IBarChartDat
     
     /// corners to be rounded
     open var roundedCorners: UIRectCorner = []
+
+    open var gradientColors: [NSUIColor] = []
     
     // MARK: - NSCopying
     
